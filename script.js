@@ -120,7 +120,7 @@ let init = false;
 
 if(window.innerWidth < 500){
     init = true;
-    gsap.to('.latar', {duration:10, delay:0, text:'Trash Go Money adalah sebuah gerakan inisiatif untuk memilah,mengumpulkan serta mengelola sampah. Kami mengundang seluruh lapisan masyarakat agar berpartisipasi bersama kami untuk membuat dampak lingkungan dan sosial yang positif di Indonesia.'})
+    gsap.to('.latar', {duration:10, delay:0, text:'Trash Go adalah sebuah gerakan inisiatif untuk memilah,mengumpulkan serta mengelola sampah. Kami mengundang seluruh lapisan masyarakat agar berpartisipasi bersama kami untuk membuat dampak lingkungan dan sosial yang positif di Indonesia.'})
 
 }
 
@@ -128,7 +128,7 @@ window.onscroll = function(){
     if(document.getElementsByClassName("container-latar-belakang")[0].getBoundingClientRect().top < 60){
         if(!init){
         init = true;
-        gsap.to('.latar', {duration:15, delay:0, text:'Trash Go Money adalah sebuah gerakan inisiatif untuk memilah,mengumpulkan serta mengelola sampah. Kami mengundang seluruh lapisan masyarakat agar berpartisipasi bersama kami untuk membuat dampak lingkungan dan sosial yang positif di Indonesia.'})
+        gsap.to('.latar', {duration:15, delay:0, text:'Trash Go adalah sebuah gerakan inisiatif untuk memilah,mengumpulkan serta mengelola sampah. Kami mengundang seluruh lapisan masyarakat agar berpartisipasi bersama kami untuk membuat dampak lingkungan dan sosial yang positif di Indonesia.'})
         }
     }
 }
