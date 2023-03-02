@@ -87,7 +87,7 @@ body {
 .background {
   position: relative;
   height: 110vh;
-  width: 101vw;
+  width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   overflow: hidden;
