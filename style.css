@@ -1,0 +1,1307 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Poppins:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--primary);
+}
+
+/* LANDING PAGE CSS MULAI */
+:root {
+  --primary: #d9d9d9;
+  --listColor: black;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.Logo {
+  width: 70px;
+  padding: 20px;
+}
+
+.Logo img {
+  width: 100px;
+}
+
+.Nav-value {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.Nav-value a {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+}
+
+.Nav-value a:hover {
+  border-bottom: 2px solid;
+}
+
+.dropdown {
+  transition: all ease-in-out 0.3s;
+  flex-direction: column;
+}
+
+.dropv {
+  right: 80px;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropv a {
+  padding: 10px 25px;
+}
+
+.dropv a:hover {
+  border: 2px solid #87aa4b;
+  border-radius: 5px;
+  padding: 8px 23px;
+}
+
+.down .dropv {
+  display: flex;
+}
+
+.background {
+  position: relative;
+  height: 110vh;
+  width: 101vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.BGprops {
+  position: absolute;
+  bottom: 0;
+  width: 101vw;
+  transition: linear 0.05s;
+  z-index: -1;
+}
+
+div .matahari {
+  width: 80vw;
+  left: 150px;
+}
+
+
+div .awan {
+  bottom: 15vh;
+  width: 80vw;
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.177));
+  right: 150px;
+}
+
+.container-judul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 25px;
+}
+
+
+/* LANDING PAGE SELESAI */
+
+/* LATAR BELAKANG CSS MULAI */
+.container-latar-belakang {
+  width: 100%;
+  height: 200vh;
+  background-color: #fde886;
+  position: relative;
+  bottom: 69px;
+}
+
+.latar-belakang-png {
+  width: 100vw;
+  margin-bottom: -2vh;
+}
+
+.wrapper-latar-belakang {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  right: 100px;
+  top: 43px;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+.container-latar-belakang-logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-latar-belakang-teks {
+  padding-top: 25px;
+}
+
+.judul-latar-belakang {
+  display: flex;
+  justify-content: flex-end;
+}
+.judul-latar-belakang h2 {
+  font-size: 40px;
+  color: #33604c;
+}
+
+.teks-latar-belakang {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 800px;
+  gap: 20px;
+}
+
+.teks-latar-belakang p {
+  color: #33604c;
+  font-size: 27px;
+  text-align: right;
+}
+
+.button-latar-belakang {
+  margin-left: 65%;
+  text-align: right;
+  background-color: #87aa4b;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f5eed7;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.button-latar-belakang:hover {
+  background-color: #f5eed7;
+  color: #87aa4b;
+}
+
+/* LATAR BELAKANG CSS SELSAI */
+
+/* SOLUSI MULAI */
+
+.container-solusi {
+  height: 100vh;
+  background-color: #33604c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-solusi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 384px;
+  width: 301px;
+  gap: 30px;
+  background-color: #fcd109;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-solusi img {
+  height: 60px;
+  width: 100px;
+}
+
+.card-solusi h1 {
+  font-size: 23px;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.card-solusi p {
+  text-align: center;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.solusi-img {
+  text-align: center;
+}
+
+.solusi-img h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
+  color: white;
+}
+
+.card-solusi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 384px;
+  width: 301px;
+  gap: 30px;
+  background-color: #fcd109;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-solusi img {
+  height: 65px;
+  width: 70px;
+}
+
+.card-solusi h1 {
+  text-align: center;
+  font-size: 23px;
+  padding: 0 20px;
+}
+
+.card-solusi p {
+  text-align: center;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+/* SOLUSI SELESAI */
+
+/* EDUKASI MULAI */
+.pengertian-education {
+  width: 100%;
+  height: 520px;
+  Background-color: #33604c
+}
+
+.education-page {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pengertian-teks-education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  color: white;
+}
+.pengertian-teks-education h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.pengertian-teks-education p {
+  font-size: 24px;
+}
+.education-image img {
+  width: 700px;
+  height: 540px;
+}
+
+
+
+.container-edukasi {
+  width: 100%;
+  height: 100vh;
+  background-color: #33604c;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.card-edukasi {
+  width: 408px;
+  height: 485px;
+  background-color: #fcd109;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 39px;
+}
+
+.card-edukasi:hover {
+  background-color: #fde886;
+}
+
+.sampah-edukasi {
+  background-color: #79513a;
+  width:100px;
+  height: 100px;
+  padding: 15px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teks-edukasi {
+  font-family: "Montserrat", sans-serif;
+}
+
+.teks-edukasi h1 {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.teks-edukasi h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.teks-edukasi p {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.contoh-edukasi {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contoh-edukasi img {
+  width: 40px;
+  height: 60px;
+  background-color: #87aa4b;
+  border-radius: 50%;
+  padding: 10px 25px;
+}
+
+.contoh-edukasi img:hover {
+  padding: 5px 20px;
+  border: 5px solid brown;
+}
+/* EDUKASI SELESAI */
+
+/* HAMBURGER MENU */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  opacity: 0;
+  left: -9.8px;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  border-radius: 3px;
+  transition: all 0.5s;
+  margin-right: 20px;
+}
+
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  background-color: rgb(198, 39, 39);
+  transform: rotate(45deg) translate(-2px, -1px);
+}
+.menu-toggle input:checked ~ span:nth-child(4) {
+  background-color: rgb(198, 39, 39);
+  transform: rotate(-45deg) translate(-1px, 0);
+}
+.menu-toggle input:checked ~ span:nth-child(3) {
+  opacity: 0;
+  transform: scale(0);
+}
+
+/* 3R */
+.container-3r {
+  position: relative;
+  height: 100vh;
+}
+/* .container-3r h1 {
+  padding: 40px;
+  font-size: 20px;
+  text-align: center;
+} */
+.container-3r img {
+  position: absolute;
+  bottom: 0;
+}
+
+.pencet-gambar {
+  z-index: 1;
+} 
+
+.gambar-kanan {
+  z-index: 1;
+  top: 407px;
+  cursor: pointer;
+  left: 76em;
+}
+
+.gambar-tengah {
+  z-index: 1;
+  top: 360px;
+  cursor: pointer;
+  left: 50em;
+}
+
+.gambar-kiri {
+  cursor: pointer;
+  z-index: 1;
+  top: 380px;
+  left: 18em;
+}
+
+.kedip {
+  animation: kedip 1s linear infinite;
+}
+
+@keyframes kedip {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card-muncul {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card-muncul img {
+  width: 120px;
+  height: 120px;
+  top: 30px;
+}
+.text-3r {
+  width: 370px;
+}
+.text-3r p {
+  font-size: 30px;
+}
+
+.popup-box-1 {
+  border-radius: 24px;
+  opacity: 0;
+  position: absolute;
+  top: 100px;
+  right: 290px;
+  height: 207px;
+  width: 898px;
+  background-color: #F3EBE9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.708);
+}
+.popup-box-2 {
+  border-radius: 24px;
+  opacity: 0;
+  position: absolute;
+  top: 100px;
+  right: 290px;
+  height: 207px;
+  width: 898px;
+  background-color: #F3EBE9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.708);
+}
+.popup-box-3 {
+  border-radius: 24px;
+  opacity: 0;
+  position: absolute;
+  top: 100px;
+  right: 290px;
+  height: 207px;
+  width: 898px;
+  background-color: #F3EBE9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.708);
+}
+
+.text-3r {
+  text-align: center;
+  color: #87880A;
+}
+.text-3r p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-tutup {
+  cursor: pointer;
+  height: 200px;
+  width: 150px;
+}
+.button-tutup img{
+  text-align: center;
+  transform: translate(50px, -90px);
+}
+
+.muncul {
+  opacity: 1;
+}
+
+/* dampak mulai */
+.danger {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: #33604c;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
+
+.danger h1 {
+  color: white;
+  font-size: 30px;
+}
+.container-danger  {
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* lingkungan */
+.lingkungan {
+  position: relative;
+  width: 480px;
+  height: 266px;
+}
+
+.lingkungan img {
+  width: 480px;
+  height: 266px;
+  opacity: .7;
+  border-radius: 5px;
+}
+
+.teks-lingkungan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  background-color: #ADC669;
+  height: 266px;
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lingkungan h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.lingkungan:hover h1 {
+  opacity: 0;
+}
+
+.lingkungan:hover .teks-lingkungan {
+  opacity: 1;
+  background-color: #ADC669;
+  height: 266px;
+  width: 480px;
+  border-radius: 5px;
+}
+/* kesehatan */
+.kesehatan {
+  position: relative;
+  width: 480px;
+  height: 266px;
+}
+
+.kesehatan img {
+  width: 480px;
+  height: 266px;
+  opacity: .7;
+  border-radius: 5px;
+}
+
+.kesehatan h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.teks-kesehatan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  width: 480px;
+  height: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kesehatan:hover h1 {
+  opacity: 0;
+}
+
+.kesehatan:hover .teks-kesehatan {
+  opacity: 1;
+  background-color: #ADC669;
+  border-radius: 5px;
+  width: 480px;
+  height: 266px;
+}
+/* ekonomi */
+.ekonomi {
+  position: relative;
+  width: 480px;
+  height: 266px;
+}
+
+.ekonomi img {
+  width: 480px;
+  height: 266px;
+  opacity: .7;
+  border-radius: 5px;
+}
+
+.ekonomi h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.teks-ekonomi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  width: 480px;
+  height: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ekonomi:hover h1 {
+  opacity: 0;
+}
+
+.ekonomi:hover .teks-ekonomi {
+  opacity: 1;
+  background-color: #ADC669;
+  width: 480px;
+  height: 266px;
+  border-radius: 5px;
+}
+/* sosial */
+.sosial {
+  position: relative;
+  width: 480px;
+  height: 266px;
+}
+
+.sosial img {
+  width: 480px;
+  height: 266px;
+  opacity: .7;
+  border-radius: 5px;
+}
+
+.sosial h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.teks-sosial {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  width: 480px;
+  height: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.sosial:hover h1 {
+  opacity: 0;
+}
+.sosial:hover .teks-sosial {
+  opacity: 1;
+  background-color: #ADC669;
+  width: 480px;
+  height: 266px;
+  border-radius: 5px;
+}
+
+/* FOOTER MULAI */
+
+footer {
+  height: 50vh;
+  width: 100%;
+  display: flex; 
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  font-size: 27px;
+}
+
+.menu h1 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu ul li {
+  list-style: none;
+  font-size: 18px;
+}
+
+.menu ul li a{
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  border-bottom: 2px solid;
+}
+
+.copyright {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.copyright p {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+@media screen and (max-width: 487px) {
+  body {
+    overflow-x: hidden;
+  }
+  /* NAVBAR */
+  .menu-toggle {
+    display: flex;
+  }
+  .navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Nav-value {
+    position: absolute;
+    top: 100%;
+    right: -155%;
+    background-color: white;
+    width: 30rem;
+    height: 85vh;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2px;
+
+  }
+
+  .Logo img {
+    width: 70px;
+  }
+
+  .navbar .Nav-value.slide {
+    right: -300px;
+  }
+
+  .Nav-value a {
+    width: 130px;
+    /* height: 40px; */
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .background {
+    height: 60vh;
+  }
+
+  .BGprops {
+    bottom: 50px;
+  }
+
+  div .matahari {
+    height: 250px;
+    width: 160vw;
+    left: -150px;
+    top: 40vw;
+  }
+
+  div .awan {
+    top: 100px;
+    right: 10px;
+    width: 100vw;
+  }
+
+  .container-judul {
+    padding: 0 20px;
+    height: 80%;
+    width: 90%;
+    text-align: center;
+    font-size: 10px;
+  }
+  .container-judul a {
+    height: 10px;
+    width: 100px;
+  }
+
+  /* LATAR BELAKANG RESPONSIVE */
+  .container-latar-belakang {
+    height: 200vh;
+    bottom: 60px;
+  }
+  .wrapper-latar-belakang {
+    right: 5px;
+    top: 0px;
+  }
+
+  .container-latar-belakang-logo img {
+    display: none;
+  }
+
+  .container-latar-belakang-teks {
+    padding-top: 0;
+  }
+
+  .judul-latar-belakang {
+    font-size: 20px;
+    padding-top: 0;
+  }
+  .judul-latar-belakang h2 {
+    font-size: 16px;
+  }
+
+  .teks-latar-belakang {
+    margin-left: 165px;
+    gap: 5px;
+  }
+  .teks-latar-belakang p {
+    font-size: 10px;
+  }
+
+  .button-latar-belakang {
+    margin-left: 130px;
+    padding: 5px;
+    font-size: 8px;
+  }
+  /* LATAR BELAKANG SELESAI */
+
+  /* SOLUSI MULAI */
+  .card-solusi:nth-child(1) {
+    order: 2;
+  }
+  .solusi-img:nth-child(2) {
+    order: -2;
+  }
+
+  .container-solusi {
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .solusi-img img {
+    width: 70%;
+    
+  }
+  .solusi-img {
+    height: 150px;
+  }
+
+  .card-solusi {
+    width: 47%;
+    font-size: 50%;
+    height: 35%;
+    gap: 10px;
+  }
+  .card-solusi img {
+   padding-top: 5px;
+   width: 50px;
+   height: 50px;
+  }
+  .card-solusi h1 {
+    font-size: 15px;
+  }
+  .card-solusi p {
+    font-size: 10px;
+  }
+  /* SOLUSI SELSAI */
+
+  /* EDUKASI MULAI */
+  .pengertian-education {
+    height: 480px;
+  }
+  .education-page {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .pengertian-teks-education {
+    order: 2;
+    margin-left: 0px;
+  }
+  .pengertian-teks-education h1 {
+    font-size: 30px;
+  }
+  .pengertian-teks-education p {
+    font-size: 15px;
+  }
+  .education-image {
+    order: 1;
+  }
+  .education-image img {
+    width: 400px;
+    height: 300px;
+  }
+  .container-edukasi {
+    position: relative;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+  }
+  .card-edukasi {
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    justify-content: center
+  }
+
+  .card-edukasi:nth-child(1) {
+    left: 20px;
+    transition: .3s;
+  }
+  .card-edukasi:nth-child(2) {
+    left: 400px;
+    transition: .3s;
+  }
+  .card-edukasi:nth-child(3) {
+    left: 780px;
+    transition: .3s;
+  }
+  .contoh-edukasi img {
+    padding: 5px 20px;
+  }
+  .contoh-edukasi img:hover {
+    padding: 0 15px;
+    border: 5px solid brown;
+  }
+  /* 3r */
+
+  .container-3r {
+    height: 50vh;
+  }
+  .pencet-gambar {
+    z-index: 1;
+  } 
+  .gambar-kanan {
+    width: 120px;
+    transform: translateY(-120px);
+    left: 280px;
+  }
+  .gambar-tengah {
+    width: 120px;
+    transform: translateY(-75px);
+    left: 180px;
+  }
+  .gambar-kiri {
+    transform: translateY(-100px);
+    width: 120px;
+    left: 70px;
+  }
+  .card-muncul img {
+    width: 60px;
+    top: 20px;
+  }
+  .popup-box-1 {
+    width: 300px;
+    height: 100px;
+    right: 40px;
+  }
+  .popup-box-2 {
+    width: 300px;
+    height: 100px;
+    right: 45px;
+  }
+  .popup-box-3 {
+    width: 300px;
+    height: 100px;
+    right: 45px;
+    bottom: 0px;
+  }
+  .text-3r h2 {
+    font-size: 15px;
+  }
+  .text-3r p {
+    font-size: 10px;
+  }
+  .card-muncul img {
+    height: 50px;
+    padding: 0 20px;
+  }
+  .button-tutup {
+    height: 100px;
+    width: 200px;
+  }
+  .button-tutup img {
+    width: 20px;
+    transform: translate(30px, -40px);
+  }
+  /* 3r selesai */
+
+  /* dampak mulai */
+  .danger {
+    height: 150vh;
+    gap: 20px;
+  }
+
+  .container-danger {
+    width: 100%;
+    height: 130vh;
+    gap: 0px;
+  }
+
+  .lingkungan {
+    padding: 0 20px;
+  }
+
+  .lingkungan img {
+    width: 350px;
+    height: 200px;
+    top: 200px;
+  }
+
+  .lingkungan h1 {
+    top: 100px;
+  }
+
+  .teks-lingkungan {
+    width: 350px;
+    height: 200px;
+    top: 100px;
+  }
+  .lingkungan:hover .teks-lingkungan {
+    width: 350px;
+    height: 200px;
+  }
+
+  /* ekonomi */
+  .ekonomi {
+    padding: 0 20px;
+  }
+
+  .ekonomi img {
+    width: 350px;
+    height: 200px;
+    top: 200px;
+  }
+
+  .ekonomi h1 {
+    top: 100px;
+  }
+
+  .teks-ekonomi {
+    width: 350px;
+    height: 200px;
+    top: 100px;
+  }
+  .ekonomi:hover .teks-ekonomi {
+    width: 350px;
+    height: 200px;
+  }
+
+  /* kesehatan */
+  .kesehatan {
+    padding: 0 20px;
+  }
+
+  .kesehatan img {
+    width: 350px;
+    height: 200px;
+    top: 200px;
+  }
+
+  .kesehatan h1 {
+    top: 100px;
+  }
+
+  .teks-kesehatan {
+    width: 350px;
+    height: 200px;
+    top: 100px;
+  }
+  .kesehatan:hover .teks-kesehatan {
+    width: 350px;
+    height: 200px;
+  }
+
+  /* sosial */
+
+  .sosial {
+    padding: 0 20px;
+  }
+
+  .sosial img {
+    width: 350px;
+    height: 200px;
+    top: 200px;
+  }
+
+  .sosial h1 {
+    top: 100px;
+  }
+
+  .teks-sosial {
+    width: 350px;
+    height: 200px;
+    top: 100px;
+  }
+  .sosial:hover .teks-sosial {
+    width: 350px;
+    height: 200px;
+  }
+  /* dampak selsai */
+
+  /* footer */
+  footer {
+    text-align: center;
+    height: 140vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  footer .menu {
+    gap: 10px;
+  }
+  .menu h1 {
+    border: 0px ;
+  }
+
+}
