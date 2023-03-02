@@ -87,7 +87,7 @@ body {
 .background {
   position: relative;
   height: 110vh;
-  width: 101vw;
+  width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
@@ -943,6 +943,7 @@ footer .menu {
 
   .background {
     height: 60vh;
+    overflow-x: hidden;
   }
 
   .BGprops {
@@ -1117,6 +1118,9 @@ footer .menu {
 
   .container-3r {
     height: 50vh;
+  }
+  .container-3r img {
+    position: relative;
   }
   .pencet-gambar {
     z-index: 1;
