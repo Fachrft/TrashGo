@@ -541,7 +541,7 @@ div .awan {
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.708);
+  box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0.708)
 }
 .popup-box-2 {
   border-radius: 24px;
@@ -558,7 +558,7 @@ div .awan {
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.708);
+  box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0.708);
 }
 .popup-box-3 {
   border-radius: 24px;
@@ -575,7 +575,7 @@ div .awan {
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.708);
+  box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0.708)
 }
 
 .text-3r {
@@ -1070,6 +1070,7 @@ footer .menu {
     justify-content: center;
     text-align: center;
     align-items: center;
+    gap: 5px;
   }
   .pengertian-teks-education {
     order: 2;
@@ -1173,9 +1174,9 @@ footer .menu {
     left: 80px;
   }
   .gambar-kiri {
-    transform: translateY(-115px);
+    transform: translateY(-110px);
     width: 100px;
-    left: 80px;
+    left: 70px;
   }
   .card-muncul img {
     width: 60px;
@@ -1200,10 +1201,10 @@ footer .menu {
     width: 600px;
   }
   .text-3r h2 {
-    font-size: 15px;
+    font-size: 12px;
   }
   .text-3r p {
-    font-size: 10px;
+    font-size: 9px;
   }
   .card-muncul img {
     height: 50px;
