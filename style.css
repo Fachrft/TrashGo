@@ -87,9 +87,10 @@ body {
 .background {
   position: relative;
   height: 110vh;
-  width: 100%;
+  width: 101vw;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  overflow-x: hidden;
 }
 
 .BGprops {
@@ -210,6 +211,7 @@ div .awan {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .card-solusi {
@@ -289,7 +291,8 @@ div .awan {
 .pengertian-education {
   width: 100%;
   height: 520px;
-  Background-color: #33604c
+  Background-color: #33604c;
+  overflow-x: hidden;
 }
 
 .education-page {
@@ -609,6 +612,7 @@ div .awan {
   background-color: #33604c;
   font-family: "Montserrat", sans-serif;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .danger h1 {
@@ -896,6 +900,7 @@ footer .menu {
 @media screen and (max-width: 487px) {
   body {
     overflow-x: hidden;
+    max-width: 100%;
   }
   /* NAVBAR */
   .menu-toggle {
@@ -931,7 +936,7 @@ footer .menu {
 
   .Nav-value a {
     width: 130px;
-    /* height: 40px; */
+    height: 40px;
     display: flex;
     flex-direction: column;
     margin: 10px 0;
@@ -943,7 +948,6 @@ footer .menu {
 
   .background {
     height: 60vh;
-    overflow-x: hidden;
   }
 
   .BGprops {
@@ -1121,24 +1125,26 @@ footer .menu {
   }
   .container-3r img {
     position: relative;
+    top: 250px;
   }
   .pencet-gambar {
+    position: absolute;
     z-index: 1;
   } 
   .gambar-kanan {
-    width: 120px;
-    transform: translateY(-120px);
-    left: 280px;
+    width: 100px;
+    transform: translateY(-110px);
+    left: 83px;
   }
   .gambar-tengah {
-    width: 120px;
-    transform: translateY(-75px);
-    left: 180px;
+    width: 100px;
+    transform: translateY(-100px);
+    left: 80px;
   }
   .gambar-kiri {
-    transform: translateY(-100px);
-    width: 120px;
-    left: 70px;
+    transform: translateY(-115px);
+    width: 100px;
+    left: 80px;
   }
   .card-muncul img {
     width: 60px;
@@ -1147,18 +1153,20 @@ footer .menu {
   .popup-box-1 {
     width: 300px;
     height: 100px;
-    right: 40px;
+    right: 30px;
   }
   .popup-box-2 {
     width: 300px;
     height: 100px;
-    right: 45px;
+    right: 30px;
   }
   .popup-box-3 {
     width: 300px;
     height: 100px;
-    right: 45px;
-    bottom: 0px;
+    right: 30px;
+  }
+  .text-3r {
+    width: 600px;
   }
   .text-3r h2 {
     font-size: 15px;
@@ -1172,11 +1180,10 @@ footer .menu {
   }
   .button-tutup {
     height: 100px;
-    width: 200px;
   }
   .button-tutup img {
     width: 20px;
-    transform: translate(30px, -40px);
+    transform: translate(5px, -210px);
   }
   /* 3r selesai */
 
