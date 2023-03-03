@@ -11,6 +11,7 @@ const html = document.querySelector('html')
 const menuToggle = document.querySelector('.menu-toggle input')
 const nav = document.querySelector('.Nav-value')
 const aNavbar = document.querySelectorAll('.a-navbar')
+const navbar = document.querySelector('.navbar');
 // AMBIL NAVBAR SELSAI
 
 // CARD EDUKASI 
@@ -99,10 +100,20 @@ kedip.forEach(k => {
 
 
 window.addEventListener('scroll',() => {
-        let paralaxValue = window.scrollY;
+    var paralaxValue = window.scrollY;
         paralEffect(paralaxValue)
+        navbarBg(paralaxValue)
     })
     
+const navbarBg = (value) => {
+    if ( value < 740 ){
+        navbar.style.background = ` rgba(255, 255, 255, ${value/740})`;
+    } else {
+        navbar.style.background = ` rgba(255, 255, 255, 1)`;
+        
+    }
+}
+
     
     const paralEffect = (value) => {
         bulanMatahari.style.transform = `translateY(${(value/3)}px)`;
@@ -125,6 +136,7 @@ if(window.innerWidth < 500){
 }
 
 window.onscroll = function(){
+    
     if(document.getElementsByClassName("container-latar-belakang")[0].getBoundingClientRect().top < 60){
         if(!init){
         init = true;
@@ -135,3 +147,11 @@ window.onscroll = function(){
 
 // footer
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
+//navbar 
+
+
+
+
+
