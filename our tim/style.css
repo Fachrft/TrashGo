@@ -331,6 +331,10 @@ body {
         overflow-y: hidden;
     }
 
+    .container-char {
+        width: 110vw;
+    }
+
     .container-img img {
         overflow: hidden;
         margin: 0 -13vw;
