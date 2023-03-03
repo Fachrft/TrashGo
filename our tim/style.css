@@ -323,6 +323,11 @@ body {
 
 
 @media screen and (max-width: 840px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
     .container-img img {
         margin: 0 -13vw;
         /* position: absolute; */
