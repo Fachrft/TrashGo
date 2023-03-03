@@ -329,7 +329,7 @@ body {
 @media screen and (max-width: 840px) {
     body {
         height: 88vh;
-        width: 85vw;
+        width: 88vw;
         overflow-x: hidden;
         overflow-y: hidden;
     }
