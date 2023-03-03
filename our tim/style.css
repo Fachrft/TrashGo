@@ -329,6 +329,7 @@ body {
         overflow: hidden;
     }
     .container-img img {
+        overflow: hidden;
         margin: 0 -13vw;
         /* position: absolute; */
     }
