@@ -330,9 +330,17 @@ body {
         overflow-x: hidden;
         overflow-y: hidden;
     }
+
+    .container-img {
+        display: flex;
+        justify-content: center;
+
+    }
+
     .container-img img {
         overflow: hidden;
         margin: 0 -13vw;
+        bottom: 0;
         /* position: absolute; */
     }
 
