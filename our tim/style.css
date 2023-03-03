@@ -329,13 +329,17 @@ body {
 @media screen and (max-width: 840px) {
     body {
         height: 88vh;
-        width: 112vw;
+        width: 100vw;
         overflow-x: hidden;
         overflow-y: hidden;
     }
 
     .container-char {
         width: 110vw;
+    }
+
+    .container-img {
+        width: 100vw;
     }
 
     .container-img img {
