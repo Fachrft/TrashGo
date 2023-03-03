@@ -26,6 +26,7 @@ body {
   width: 100%;
   gap: 20px;
   justify-content: space-between;
+  /* background-color: white; */
 }
 
 .Logo {
@@ -292,7 +293,7 @@ div .awan {
   width: 100%;
   height: 520px;
   Background-color: #33604c;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .education-page {
