@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 /* .container {
     width: 500px;
@@ -324,9 +325,10 @@ body {
 
 @media screen and (max-width: 840px) {
     body {
-        height: 100vh;
-        width: 100vw;
-        overflow: hidden;
+        height: 92vh;
+        width: 96vw;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
     .container-img img {
         overflow: hidden;
