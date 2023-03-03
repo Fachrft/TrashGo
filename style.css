@@ -26,7 +26,7 @@ body {
   width: 100%;
   gap: 20px;
   justify-content: space-between;
-  /* background-color: white; */
+  background: rgba(255, 255, 255, 0);
 }
 
 .Logo {
@@ -137,7 +137,7 @@ div .awan {
 }
 
 .latar-belakang-png {
-  width: 100vw;
+  width: 100%;
   margin-bottom: -2vh;
 }
 
