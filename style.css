@@ -51,7 +51,7 @@ body {
   font-weight: bold;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  padding: 5px;
+  padding: 2px;
 }
 
 .Nav-value a:hover {
@@ -937,10 +937,10 @@ footer .menu {
 
   .Nav-value a {
     width: 130px;
-    height: 40px;
+    height: 20px;
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 7px 0;
   }
 
   .dropdown {
